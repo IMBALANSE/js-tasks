@@ -1,0 +1,177 @@
+/* @import url(global.css); */
+/* @import url(../components/Header/Header.css); */
+/* @import url(../components/Welcome/Welcome.css); */
+/* @import url(../components/Oxygen/Oxygen.css);
+@import url(../components/About/About.css);
+@import url(../components/Service/Service.css);
+@import url(../components/Prices/Prices.css);
+@import url(../components/Clients/Clients.css);
+@import url(../components/Consultation/Consultation.css);
+@import url(../components/Contacts/Contacts.css);
+@import url(../components/Footer/Footer.css); */
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 12px; /*можно убрать*/
+    text-align: center;
+    color: #333;
+  }
+  
+  .container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .filter {
+    width: 250px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .filter-group {
+    margin-bottom: 20px;
+  }
+  
+  .filter-group h3 {
+    margin-top: 0;
+    font-size: 16px;
+  }
+  
+  .filter label {
+    display: block;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  .task {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .task h3 {
+    margin-top: 0;
+    color: #2c3e50;
+  }
+  
+  .task img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 4px;
+  }
+  
+  details {
+    margin-top: 10px;
+  }
+  
+  summary {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  pre {
+    max-width: 900px;
+    background: #f8f8f8;
+    padding: 5px;
+    border-radius: 4px;
+    white-space: pre-wrap; /* Переносит текст на новую строку */
+    /* word-break: break-all;   Разрывает длинные слова */
+    overflow-x: auto;       /* Добавляет прокрутку только при необходимости */
+  }
+  
+
+  /* Добавляем в конец файла */
+
+.header-actions {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-actions button {
+  /* background-color: #4CAF50; */
+  background-color: #ffffff;
+  /* color: white; */
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.header-actions button:hover {
+  /* background-color: #45a049; */
+  background-color: #ffffff;
+}
+
+.add-task-form {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.add-task-form button {
+  /* background-color: #4CAF50; */
+  background-color: #ffffff;
+  /* color: white; */
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-task-form button:hover {
+  /* background-color: #45a049; */
+  background-color: #ffffff;
+}
